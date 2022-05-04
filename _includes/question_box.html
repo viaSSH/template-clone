@@ -1,0 +1,26 @@
+{% assign questions = page.questions %}
+<div class="row">
+    <h3>문제 풀어보기</h3>
+    {% for q in questions %}
+        <div class="card">
+            <div class="card-header"> {{ q.question }} </div>
+            <div class="card-body row">
+                
+
+                <ul>
+                    {% for a in q.answers %}
+                        <li> <input type="checkbox"/> {{ a }} </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="row justify-content-center">
+                <span id="q-{{ q.questionNum }}" style="display:none; color:green; margin-right:20px; "> 답 : {{ q.answerNum }} </span>
+                <button class="btn " onclick='document.getElementById("q-{{q.questionNum}}").style.display = "block" '>
+                    답 보기
+                </button>
+            </div>
+        </div>
+        
+    {% endfor %}
+    
+</div>

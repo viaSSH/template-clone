@@ -1,9 +1,9 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: SSH's DEV
+subtitle: SSH WORLD
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+  개발가이드와 기록을 위한 블로그
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://viassh.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
@@ -14,33 +14,40 @@ urls:
       url: /about
     - text: Blog
       url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
-    - text: Contact
-      url : /contact
+    - text: Study
+      url: /study
+    - text: Exam
+      url : /exam
+    # - text: Contact
+    #   url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+author_logo: SSH.png
+author: Seungsoo Han
+author_bio: 생각을 현실로 구현하는 엔지니어, 불편함을 해결하기 위해 끊임없는 도전을 하는 개발자입니다. 👨‍💻
+author_email: "viassh2@gmail.com"
+author_location: South Korea
+author_website_url: "https://viassh.github.io"
+# typewrite-text: 생각을 현실로 구현하는 엔지니어, 불편함을 해결하기 위해 끊임없는 도전을 하는 개발자입니다. 👨‍💻
+typewrite-text:  생각을 현실로 구현하는 엔지니어👨‍💻
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
+            - company_name: GSneotek
+              company_logo: google.png
+              company_url: https://gsneotek.com
+              designation: Solution Architect
+              description: AWS, DevOps, IoT
+              visibility: true
             - company_name: Google
               company_logo: google.png
               company_url: https://google.com
               designation: Software Engineer
               description: Worked on various Google Products
-              visibility: true
+              visibility: false
             - company_name: Microsoft
               company_logo: microsoft.png
               company_url: https://microsoft.com
@@ -71,31 +78,31 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  sujaykundu777
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+# twitter_username: johndoe
+github_username:  viassh
+# facebook_username: johndoe
+linkedin_username: seungsoo-han-897642125
+# behance_username: johndoe
+# instagram_username: johndoe
+# medium_username: johndoe
+# telegram_username: johndoe
+# dribbble_username: johndoe
+# flickr_username: johndoe
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
 # disqus_shortname: sujay-kundu
-hyvor_talk_website_id: 476
+hyvor_talk_website_id: 6976
 
 # wakatime username (coding activity)
 wakatime_username: sujaykundu777
 
 # mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+# mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # contact form - (choose formspress or getform)
 # getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-formspree_email: johndoe@gmail.com
+formspree_email: viassh2@gmail.com
 
 # releases - widget can be (sidebar, modal or embed)
 olvy_organization: devlopr

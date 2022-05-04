@@ -30,8 +30,19 @@ johndoe:
       - title: "flickr"
         url: "https://flickr.com/johndoe"
 
+ssh:
+  name: Seungsoo
+  username: SSH
+  bio: "Developer"
+  site: http://viassh.github.io
+  avatar: johndoe.png
+  email: viassh2@gmail.com
+  social:
+      - title: "github"
+        url: "https://github.com/viassh"
+
 xplor4r:
-   name: Sujay kundu
+   name: asdf
    username: xplor4r
    site: https://sujaykundu.com
    avatar: xplor4r.png
@@ -46,4 +57,13 @@ xplor4r:
         url: "https://www.youtube.com/channel/UCSfLBFFfNU9r6ihfei6VeJw"
       - title: "facebook"
         url: "https://www.facebook.com/sujay.kundu2"
-
+aws:
+  name: AWS
+  username: SSH
+  bio: "Solution Architect"
+  site: http://viassh.github.io
+  avatar: aws.png
+  email: viassh2@gmail.com
+  social:
+      - title: "github"
+        url: "https://github.com/viassh"
